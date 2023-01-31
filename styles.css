@@ -1,0 +1,173 @@
+body {
+  background-image: url('images/Techno_India_University.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0;
+}
+
+.nav-link {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  background-color: white;
+  margin-top: 0;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  height: 70px;
+}
+.navbar-brand {
+  font-size: 2em;
+  margin: auto 5px;
+  text-align: center;
+  position: relative;
+  top: 5px;
+}
+
+.OES {
+  position: relative;
+  bottom: 15px;
+}
+
+.nav-link {
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  position: relative;
+  top: 15px;
+}
+
+.collapse {
+  display: flex;
+  position: absolute;
+  right: 10px;
+}
+
+.instructor-container{
+  background-color: lightblue;
+}
+
+.block {
+  display: flex;
+  width: 70%;
+  margin: 20% auto;
+  justify-content: center;
+}
+
+.container1 {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.container2 {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.bn39 {
+  background-image: linear-gradient(135deg, #008aff, #86d472);
+  border-radius: 6px;
+  color: #ffffff;
+  display: flex;
+  height: 40px;
+  font-size: 1.4em;
+  font-weight: 600;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  width: 6.5em;
+  z-index: 2;
+}
+
+.bn39:hover {
+  color: #fff;
+}
+
+.bn39 .bn39span {
+  align-items: center;
+  background: #0e0e10;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+
+.bn39:hover .bn39span {
+  background: transparent;
+}
+
+:focus .bn54 {
+  position: relative;
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 45px;
+  width: 130px;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.bn54 .bn54span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+}
+
+.bn54:hover {
+  animation: bn54rotate 0.7s ease-in-out both;
+}
+
+.bn54:hover .bn54span {
+  animation: bn54storm 0.7s ease-in-out both;
+  animation-delay: 0.06s;
+}
+
+@keyframes bn54rotate {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  25% {
+    transform: rotate(3deg) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: rotate(-3deg) translate3d(0, 0, 0);
+  }
+  75% {
+    transform: rotate(1deg) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bn54storm {
+  0% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+  25% {
+    transform: translate3d(4px, 0, 0) translateZ(0);
+  }
+  50% {
+    transform: translate3d(-3px, 0, 0) translateZ(0);
+  }
+  75% {
+    transform: translate3d(2px, 0, 0) translateZ(0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+}
