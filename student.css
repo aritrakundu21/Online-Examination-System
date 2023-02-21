@@ -3,9 +3,9 @@ body {
 }
 
 .studentContainer {
-  height: 30vh;
+  height: 45vh;
   width: 30vw;
-  margin: 200px auto ;
+  margin: 150px auto ;
   background-image: linear-gradient(to right, skyblue, pink);
   padding: 60px;
   font-size: 1.5em;
@@ -16,9 +16,9 @@ body {
 
 
 .instructorContainer {
-  height: 20vh;
+  height: 30vh;
   width: 20vw;
-  margin: 200px auto ;
+  margin: 150px auto ;
   background-image: linear-gradient(to right, skyblue, pink);
   padding: 80px;
   font-size: 1.5em;
